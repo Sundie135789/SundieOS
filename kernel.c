@@ -47,7 +47,7 @@ void kernel_main(void){
   print(buf, 0x09);
   print(" bytes\n", 0x09); 
   print("Loading shell...", 0x0A);
-  delay(500000000);
+  delay(50000000);
   clear_screen();
   load_shell();
   while (1) {
